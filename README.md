@@ -1,0 +1,50 @@
+# 📊 Análisis de ventas de videojuegos y planificación de campaña 2017
+## 📖 Descripción
+## Objetivo: Identificar patrones de éxito en ventas de videojuegos usando datos hasta 2016 y planificar campañas 2017.
+Enfoque: Limpieza y análisis de datos, correlación ventas–reseñas, segmentación regional, y pruebas de hipótesis para decisiones de marketing.
+---
+## 📂 Datos
+- Ruta: /datasets/games.csv
+- Variables: Name, Platform, Year_of_Release, Genre, NA_sales, EU_sales, JP_sales, Other_sales, Critic_Score, User_Score, Rating.
+- Preparación:
+- Normalización: columnas en minúsculas.
+- Conversión: tipos adecuados para fechas y numéricos.
+- Ausentes: tratamiento justificado (incluye “TBD”).
+- Nueva columna: total_sales = NA + EU + JP + Other.
+---
+## 🔎 Metodología
+- Periodo relevante: Selección basada en estabilidad de plataformas y consistencia de ventas.
+- Plataformas: Tendencias, líderes y declive; boxplots de ventas globales por plataforma.
+- Reseñas: Dispersión y correlación entre critic_score/user_score y ventas en una plataforma elegida; comparación cross-platform.
+- Géneros: Distribución y rentabilidad por género.
+- Regiones (NA, EU, JP): Top 5 plataformas y géneros; efecto de ESRB en ventas.
+- Hipótesis:
+- H0/HA: Xbox One vs PC (medias de user_score).
+- H0/HA: Acción vs Deportes (medias de user_score).
+- Prueba y α: Criterio estadístico y umbral definidos en el notebook.
+---
+## 📈 Resultados y conclusiones
+- Hallazgos clave: Plataformas y géneros prometedores; impacto de reseñas; diferencias regionales.
+- Recomendaciones: Foco de campaña por región, plataformas a priorizar, géneros a impulsar.
+- Limitaciones: Posibles incompletos en 2016; sesgos por disponibilidad de reseñas.
+---
+## 🛠️ Tecnologías
+- Lenguajes: Python (Pandas, NumPy, SciPy), SQL.
+- Visualización: Matplotlib, Seaborn.
+- Entorno: Jupyter Notebook / VS Code.
+---
+## 📋 Uso
+- Abrir notebook: Formato con celdas Markdown y código; encabezados y explicaciones.
+- Ejecutar análisis: Seguir secciones del notebook en orden (datos → EDA → regiones → hipótesis → conclusiones).
+---
+## 📁 Estructura sugerida del repo
+- data/: datasets
+- notebooks/: análisis principal
+- reports/: gráficos y resultados
+- src/: funciones auxiliares (limpieza, gráficos, tests)
+- README.md: documentación general
+---
+## 📧 Contacto
+- Autor: Sebastian Vera Morales
+- LinkedIn: [www.linkedin.com/in/sebastian-vera-morales]
+- Correo: [sebastianvera4997@gmail.com]
