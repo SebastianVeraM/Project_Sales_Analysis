@@ -1,10 +1,14 @@
 # 📊 Proyecto: Análisis de ventas de videojuegos y planificación de campaña 2017
+
 ## 📖 Descripción:
 Trabajé con datos abiertos de reseñas (usuarios y críticos), géneros, plataformas y ventas históricas para identificar patrones que determinan el éxito comercial de videojuegos. El objetivo fue detectar títulos y plataformas prometedoras y planificar campañas publicitarias para 2017, usando información hasta 2016 y buenas prácticas de análisis reproducible.
+
 ## 🎯 Objetivo: 
 Identificar patrones de éxito en ventas de videojuegos usando datos hasta 2016 y planificar campañas 2017.
-Enfoque: 
+
+## 💡 Enfoque:
 Limpieza y análisis de datos, correlación ventas–reseñas, segmentación regional, y pruebas de hipótesis para decisiones de marketing.
+
 ---
 ## 📂 Datos
 - Ruta: games.csv
