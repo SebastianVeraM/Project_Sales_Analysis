@@ -1,6 +1,7 @@
-# 📊 Análisis de ventas de videojuegos y planificación de campaña 2017
-## 📖 Descripción
-## Objetivo: Identificar patrones de éxito en ventas de videojuegos usando datos hasta 2016 y planificar campañas 2017.
+# 📊 Proyecto: Análisis de ventas de videojuegos y planificación de campaña 2017
+## 📖 Descripción:
+Trabajé con datos abiertos de reseñas (usuarios y críticos), géneros, plataformas y ventas históricas para identificar patrones que determinan el éxito comercial de videojuegos. El objetivo fue detectar títulos y plataformas prometedoras y planificar campañas publicitarias para 2017, usando información hasta 2016 y buenas prácticas de análisis reproducible.
+## 🎯 Objetivo: Identificar patrones de éxito en ventas de videojuegos usando datos hasta 2016 y planificar campañas 2017.
 Enfoque: Limpieza y análisis de datos, correlación ventas–reseñas, segmentación regional, y pruebas de hipótesis para decisiones de marketing.
 ---
 ## 📂 Datos
@@ -20,7 +21,7 @@ Enfoque: Limpieza y análisis de datos, correlación ventas–reseñas, segmenta
 - Regiones (NA, EU, JP): Top 5 plataformas y géneros; efecto de ESRB en ventas.
 - Hipótesis:
 - H0/HA: Xbox One vs PC (medias de user_score).
-- H0/HA: Acción vs Deportes (medias de user_score).
+- H0/HA: Acción v.s Deportes (medias de user_score).
 - Prueba y α: Criterio estadístico y umbral definidos en el notebook.
 ---
 ## 📈 Resultados y conclusiones
@@ -36,13 +37,6 @@ Enfoque: Limpieza y análisis de datos, correlación ventas–reseñas, segmenta
 ## 📋 Uso
 - Abrir notebook: Formato con celdas Markdown y código; encabezados y explicaciones.
 - Ejecutar análisis: Seguir secciones del notebook en orden (datos → EDA → regiones → hipótesis → conclusiones).
----
-## 📁 Estructura sugerida del repo
-- data/: datasets
-- notebooks/: análisis principal
-- reports/: gráficos y resultados
-- src/: funciones auxiliares (limpieza, gráficos, tests)
-- README.md: documentación general
 ---
 ## 📧 Contacto
 - Autor: Sebastian Vera Morales
