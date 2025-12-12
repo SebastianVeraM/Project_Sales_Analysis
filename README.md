@@ -28,7 +28,7 @@ Limpieza y análisis de datos, correlación ventas–reseñas, segmentación reg
 - Hipótesis:
   - H0/HA: Xbox One vs PC (medias de user_score).
   - H0/HA: Acción v.s Deportes (medias de user_score).
-- Prueba y α: Criterio estadístico y umbral definidos en el notebook.
+  - Prueba y α: Criterio estadístico y umbral definidos en el notebook.
 ---
 ## 📈 Resultados y conclusiones
 - Hallazgos clave: Plataformas y géneros prometedores; impacto de reseñas; diferencias regionales.
