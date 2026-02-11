@@ -9,7 +9,6 @@ Identificar patrones de éxito en ventas de videojuegos usando datos hasta 2016 
 ## 💡 Enfoque:
 Limpieza y análisis de datos, correlación ventas–reseñas, segmentación regional, y pruebas de hipótesis para decisiones de marketing.
 
----
 ## 📂 Datos
 - Ruta: games.csv
 - Variables: Name, Platform, Year_of_Release, Genre, NA_sales, EU_sales, JP_sales, Other_sales, Critic_Score, User_Score, Rating.
@@ -36,13 +35,13 @@ Limpieza y análisis de datos, correlación ventas–reseñas, segmentación reg
 - Limitaciones: Posibles incompletos en 2016; sesgos por disponibilidad de reseñas.
 ---
 ## 🛠️ Tecnologías
-- Lenguajes: Python (Pandas, NumPy, SciPy), SQL.
-- Visualización: Matplotlib, Seaborn.
+- Lenguajes: Python (Pandas, NumPy, SciPy, Pyplot).
+- Visualización: Matplotlib.
 - Entorno: Jupyter Notebook / VS Code.
 ---
 ## 📋 Uso
 - Abrir notebook: Formato con celdas Markdown y código; encabezados y explicaciones.
-- Ejecutar análisis: Seguir secciones del notebook en orden (datos → EDA → regiones → hipótesis → conclusiones).
+- Ejecutar análisis: Seguir secciones del notebook en orden (Descripción de lo datos → EDA → regiones → hipótesis → conclusiones).
 ---
 ## 📧 Contacto
 - Autor: Sebastian Vera Morales
